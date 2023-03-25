@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &.inversed {
+    flex-direction: row-reverse;
+  }
+  > video {
+    padding: 50px;
+    max-width: 50%;
+  }
+  .paragraph {
+    max-width: 400px;
+    &__title {
+      font-weight: 700;
+      font-size: 24px;
+      color: #111;
+      text-align: left;
+      margin-bottom: 10px;
+      line-height: 105%;
+    }
+    &__body {
+      color: #11111190;
+      font-size: 22px;
+      text-align: left;
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+}

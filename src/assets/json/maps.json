@@ -1,0 +1,101 @@
+[
+  {
+    "name": "overpass",
+    "data": [
+      {
+        "place": "LONG A",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/overpass_back_long_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/overpass_back_long_s2.jpg"
+        ]
+      },
+      {
+        "place": "LOWER TUNNELS",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/overpass_lower_tunnel_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/overpass_lower_tunnel_s2.jpg"
+        ]
+      },
+      {
+        "place": "RESTROOM",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/overpass_toilets_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/overpass_toilets_s2.jpg"
+        ]
+      },
+      {
+        "place": "BOMBSITE A",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/overpass_van_vista_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/overpass_van_vista_s2.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "nuke",
+    "data": [
+      {
+        "place": "BOMBSITE B",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/nuke_default_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/nuke_default_s2.jpg"
+        ]
+      },
+      {
+        "place": "RAMP",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/nuke_ramp_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/nuke_ramp_s2.jpg"
+        ]
+      },
+      {
+        "place": "T-SPAWN",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/nuke_t_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/nuke_t_s2.jpg"
+        ]
+      },
+      {
+        "place": "TUNNELS",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/nuke_backhall_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/nuke_backhall_s2.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dust",
+    "data": [
+      {
+        "place": "Back Plat",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/dust2_back_plat_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/dust2_back_plat_s2.jpg"
+        ]
+      },
+      {
+        "place": "Long A Doors",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/dust2_blue_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/dust2_blue_s2.jpg"
+        ]
+      },
+      {
+        "place": "CT Spawn",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/dust2_ct_ramp_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/dust2_ct_ramp_s2.jpg"
+        ]
+      },
+      {
+        "place": "Mid Doors",
+        "slides": [
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/dust2_double_doors_s1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/maps/dust2_double_doors_s2.jpg"
+        ]
+      }
+    ]
+  }
+]

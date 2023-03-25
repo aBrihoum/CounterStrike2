@@ -1,0 +1,43 @@
+.compare {
+  max-width: 900px;
+  margin: 40px 0px;
+  background-color: rgba(0, 0, 0, 0.1254901961);
+  padding: 40px;
+  margin-inline: auto;
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #111;
+    margin-bottom: 10px;
+    line-height: 105%;
+  }
+  &__description {
+    color: rgba(17, 17, 17, 0.5647058824);
+    font-size: 22px;
+  }
+  &__ex-map {
+    color: rgba(17, 17, 17, 0.5019607843);
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    &__el {
+      margin: 10px 15px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 3px 15px;
+      cursor: pointer;
+      &.active {
+        background-color: #111;
+        color: #fff;
+      }
+    }
+  }
+}

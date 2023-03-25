@@ -1,0 +1,13 @@
+@import "normalize.css/normalize.css";
+@import "./assets/fonts/fonts.scss";
+body {
+  font-family: Stratum2, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+//compareImg override
+[data-testid] {
+  background-color: #eee !important;
+  display: block !important;
+}

@@ -1,0 +1,67 @@
+.trailer-block {
+  position: relative;
+  cursor: pointer;
+  transition-property: transform, opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+  > video {
+    width: 100%;
+    object-fit: cover;
+  }
+  &__overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    &__texts {
+      align-self: flex-start;
+      margin-left: 50px;
+      width: 77%;
+      > .sub-heading {
+        font-size: 36px;
+        color: #111;
+        background-color: rgba(255, 255, 255, 0.5647058824);
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 0px 10px;
+        max-width: 80%;
+      }
+      > .heading {
+        font-size: 90px;
+        color: #fff;
+        min-width: 300px;
+        background-color: #111;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        max-width: 80%;
+        line-height: 80px;
+      }
+    }
+    &__play-btn-block {
+      margin-left: 50px;
+      margin-top: 40px;
+      display: flex;
+      align-self: flex-start;
+      align-items: center;
+      > img {
+        max-width: 50px;
+        width: 100%;
+      }
+      > span {
+        font-size: 46px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        margin-left: 7px;
+        margin-top: 11px;
+      }
+    }
+  }
+}
