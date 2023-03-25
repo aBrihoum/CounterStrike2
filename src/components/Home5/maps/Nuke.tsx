@@ -1,8 +1,8 @@
 import { useState } from "preact/hooks";
 import maps from "../../../assets/json/maps.json";
 import { MapT } from "../../shared/interfaces/Map.type";
-import ReactCompareImage from "react-compare-image";
 import MapsBox from "../../shared/components/MapsBox/MapsBox";
+import { ReactCompareSlider, ReactCompareSliderImage } from "react-compare-slider";
 
 export default function Nuke() {
   let nuke = (maps as MapT[]).find((el) => el.name === "nuke") || ({} as MapT);
@@ -29,11 +29,9 @@ export default function Nuke() {
             EXAMPLE MAP: <b>NUKE</b>
           </>
         </MapsBox.ExMap>
-        <ReactCompareImage
-          leftImage={nukeSlide.slides[0]}
-          rightImage={nukeSlide.slides[1]}
-          rightImageLabel="CS 2"
-          leftImageLabel="CS:GO"
+        <ReactCompareSlider
+          itemOne={<ReactCompareSliderImage alt="Image one" src={nukeSlide.slides[0]} />}
+          itemTwo={<ReactCompareSliderImage alt="Image two" src={nukeSlide.slides[1]} />}
         />
         <MapsBox.Buttons activeSlide={nukeSlide}>{returnButtons(nuke)}</MapsBox.Buttons>
       </MapsBox>

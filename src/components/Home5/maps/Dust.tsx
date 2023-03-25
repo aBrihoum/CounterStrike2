@@ -1,8 +1,8 @@
 import { useState } from "preact/hooks";
 import maps from "../../../assets/json/maps.json";
 import { MapT } from "../../shared/interfaces/Map.type";
-import ReactCompareImage from "react-compare-image";
 import MapsBox from "../../shared/components/MapsBox/MapsBox";
+import { ReactCompareSlider, ReactCompareSliderImage } from "react-compare-slider";
 
 export default function Dust() {
   let dust = (maps as MapT[]).find((el) => el.name === "dust") || ({} as MapT);
@@ -29,11 +29,9 @@ export default function Dust() {
             EXAMPLE MAP: <b>DUST II</b>
           </>
         </MapsBox.ExMap>
-        <ReactCompareImage
-          leftImage={dustSlide.slides[0]}
-          rightImage={dustSlide.slides[1]}
-          rightImageLabel="CS 2"
-          leftImageLabel="CS:GO"
+        <ReactCompareSlider
+          itemOne={<ReactCompareSliderImage alt="Image one" src={dustSlide.slides[0]} />}
+          itemTwo={<ReactCompareSliderImage alt="Image two" src={dustSlide.slides[1]} />}
         />
         <MapsBox.Buttons activeSlide={dustSlide}>{returnButtons(dust)}</MapsBox.Buttons>
       </MapsBox>

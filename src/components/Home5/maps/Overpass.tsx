@@ -1,8 +1,8 @@
 import { useState } from "preact/hooks";
 import maps from "../../../assets/json/maps.json";
 import { MapT } from "../../shared/interfaces/Map.type";
-import ReactCompareImage from "react-compare-image";
 import MapsBox from "../../shared/components/MapsBox/MapsBox";
+import { ReactCompareSlider, ReactCompareSliderImage } from "react-compare-slider";
 
 export default function Overpass() {
   let overpass = (maps as MapT[]).find((el) => el.name === "overpass") || ({} as MapT);
@@ -29,11 +29,9 @@ export default function Overpass() {
             EXAMPLE MAP: <b>OVERPASS</b>
           </>
         </MapsBox.ExMap>
-        <ReactCompareImage
-          leftImage={overpassSlide.slides[0]}
-          rightImage={overpassSlide.slides[1]}
-          rightImageLabel="CS 2"
-          leftImageLabel="CS:GO"
+        <ReactCompareSlider
+          itemOne={<ReactCompareSliderImage alt="Image one" src={overpassSlide.slides[0]} />}
+          itemTwo={<ReactCompareSliderImage alt="Image two" src={overpassSlide.slides[1]} />}
         />
         <MapsBox.Buttons activeSlide={overpassSlide}>{returnButtons(overpass)}</MapsBox.Buttons>
       </MapsBox>

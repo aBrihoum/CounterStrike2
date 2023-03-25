@@ -11,7 +11,7 @@
   "dependencies": {
     "normalize.css": "^8.0.1",
     "preact": "^10.13.0",
-    "react-compare-image": "^3.3.0"
+    "react-compare-slider": "^2.2.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
