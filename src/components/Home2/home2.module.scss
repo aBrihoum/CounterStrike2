@@ -11,6 +11,9 @@
     padding: 50px 60px;
     background-color: #4d526a;
     max-width: 650px;
+    &[data-scroll="in"] {
+      animation: fade-in-bottom 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    }
     &__header {
       font-size: 50px;
       color: rgba(255, 255, 255, 0.9333333333);
@@ -30,5 +33,15 @@
       text-align: justify;
       line-height: 120%;
     }
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
 }

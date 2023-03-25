@@ -6,6 +6,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  .animation {
+    &[data-scroll="in"] {
+      animation: fade-in-right 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    }
+  }
   .texts {
     display: flex;
     flex-direction: column;
@@ -32,5 +37,15 @@
       margin: 30px 0px;
       padding: 40px 30px;
     }
+  }
+}
+@keyframes fade-in-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }

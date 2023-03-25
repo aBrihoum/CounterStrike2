@@ -8,8 +8,14 @@ import Home6 from "../Home6/Home6";
 import Home7 from "../Home7/Home7";
 import Home8 from "../Home8/Home8";
 import Home9 from "../Home9/Home9";
+// @ts-ignore
+import ScrollOut from "scroll-out";
+import { useEffect } from "preact/hooks";
 
 export function App() {
+  useEffect(() => {
+    ScrollOut();
+  }, []);
   return (
     <>
       <Home1 />

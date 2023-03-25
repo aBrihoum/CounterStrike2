@@ -1,5 +1,5 @@
-@import "normalize.css/normalize.css";
-@import "./assets/fonts/fonts.scss";
+@use "normalize.css/normalize.css";
+@use "./assets/fonts/fonts.scss";
 body {
   font-family: Stratum2, sans-serif;
 }
@@ -11,3 +11,13 @@ body {
   background-color: #eee !important;
   display: block !important;
 }
+//animation
+// [data-scroll] {
+//   transition: opacity 1s;
+// }
+// [data-scroll="in"] {
+//   opacity: 1;
+// }
+// [data-scroll="out"] {
+//   opacity: 0;
+// }
