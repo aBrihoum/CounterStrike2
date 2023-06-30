@@ -1,0 +1,12 @@
+@mixin block($bgImg, $bgColor, $animation) {
+  background-image: url($bgImg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: $bgColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & :global [data-scroll="in"] {
+    animation: $animation 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+}

@@ -1,17 +1,6 @@
+@import "../../assets/sass/mixins";
 .main-block {
-  background-image: url(../../assets/svg/bgDarkBlue.svg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: #3b415c;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  & :global [data-scroll="in"] {
-    animation: fade-in-left 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  }
-  .animation {
-    width: 100%;
-  }
+  @include block($bgImg: "../../assets/svg/bgDarkBlue.svg", $bgColor: #3b415c, $animation: fade-in-left);
   .video-container {
     text-align: center;
     video {
