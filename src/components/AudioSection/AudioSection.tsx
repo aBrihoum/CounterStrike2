@@ -15,10 +15,6 @@ export default function AudioSection() {
               </>
             </Box.SubHeading>
             <div className={styles["picture-container"]}>
-              {/* 
-            cuz the official png one is like 1.6mb
-            also, Vercel servers are kinda slow, thats why i uploaded it to ibb
-            */}
               <img src="https://i.ibb.co/ccJwXwr/audio.webp" alt="cs2 audio" />
             </div>
           </Box>
