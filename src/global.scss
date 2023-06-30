@@ -2,6 +2,7 @@
 @use "./assets/fonts/fonts.scss";
 body {
   font-family: Stratum2, sans-serif;
+  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;
