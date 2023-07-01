@@ -1,4 +1,0 @@
-@import "../../assets/sass/mixins";
-.main-block {
-  @include block($bgImg: "../../assets/svg/bgGray.svg", $bgColor: #d9d9d9, $animation: fade-in-right);
-}

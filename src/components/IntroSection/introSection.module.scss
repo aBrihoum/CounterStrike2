@@ -1,29 +1,28 @@
-@import "../../assets/sass/mixins";
-.main-block {
-  @include block($bgImg: "../../assets/svg/bgDarkBlue.svg", $bgColor: #434963, $animation: fade-in-bottom);
+.padding {
   padding: 120px 0px;
-  .intro-box {
-    padding: 50px 60px;
-    background-color: #4d526a;
-    max-width: 650px;
-    &__header {
-      font-size: 50px;
-      color: rgba(255, 255, 255, 0.9333333333);
-      text-align: center;
-      text-transform: uppercase;
-      font-weight: 600;
-      line-height: 110%;
-      &--minor {
-        font-weight: normal;
-        color: #fff;
-        font-style: normal;
-      }
+}
+.intro-box {
+  padding: 50px 60px;
+  background-color: #4d526a;
+  max-width: 650px;
+  margin-inline: auto;
+  &__header {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.9333333333);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 110%;
+    &--minor {
+      font-weight: normal;
+      color: #fff;
+      font-style: normal;
     }
-    &__paragraph {
-      color: rgba(255, 255, 255, 0.9176470588);
-      margin-top: 25px;
-      text-align: justify;
-      line-height: 120%;
-    }
+  }
+  &__paragraph {
+    color: rgba(255, 255, 255, 0.9176470588);
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 120%;
   }
 }

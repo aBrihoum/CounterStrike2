@@ -1,14 +1,10 @@
-@import "../../assets/sass/mixins";
-.main-block {
-  @include block($bgImg: "../../assets/svg/bgDarkBlue.svg", $bgColor: #3b415c, $animation: fade-in-left);
-  .video-container {
-    text-align: center;
-    video {
-      width: 100%;
-      min-height: 450px;
-      max-width: 900px;
-      margin: 30px 0px;
-      padding: 40px 30px;
-    }
+.video-container {
+  text-align: center;
+  video {
+    width: 100%;
+    min-height: 450px;
+    max-width: 900px;
+    margin: 30px 0px;
+    padding: 40px 30px;
   }
 }

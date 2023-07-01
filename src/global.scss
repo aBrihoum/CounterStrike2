@@ -43,3 +43,23 @@ body {
     opacity: 1;
   }
 }
+
+[data-scroll="in"] {
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+
+  &[data-animation="fade-in-right"] {
+    animation-name: fade-in-right;
+  }
+  &[data-animation="fade-in-bottom"] {
+    animation-name: fade-in-bottom;
+  }
+  &[data-animation="fade-in-left"] {
+    animation-name: fade-in-left;
+  }
+}
