@@ -75,28 +75,27 @@ Thanks to [Vercel](https://vercel.com/), you can play with the project online
    │  ├─ fonts
    │  ├─ images
    │  ├─ json
+   │  ├─ sass
    │  └─ svg
    ├─ components
-   │  ├─ App
+   │  ├─ AudioSection
+   │  ├─ ComingSection
    │  ├─ Footer
    │  ├─ Header
-   │  ├─ Home1
-   │  ├─ Home2
-   │  ├─ Home3
-   │  ├─ Home4
-   │  ├─ Home5
+   │  ├─ Home
+   │  ├─ IntroSection
+   │  ├─ InventorySection
+   │  ├─ MapsSection
    │  │  └─ maps
-   │  ├─ Home6
-   │  ├─ Home7
-   │  ├─ Home8
-   │  ├─ Home9
-   │  └─ shared
-   │     ├─ components
-   │     │  ├─ Box
-   │     │  ├─ MapsBox
-   │     │  ├─ Rows
-   │     │  └─ YoutubeCard
-   │     └─ interfaces
+   │  ├─ SmokesSection
+   │  ├─ TicksSection
+   │  ├─ VfxSection
+   │  └─ UI
+   │     ├─ Box
+   │     ├─ MainBlock
+   │     ├─ MapsBox
+   │     ├─ Rows
+   │     └─ YoutubeCard
    └─ global.scss
 ```
 
